@@ -71,7 +71,7 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
    ```Example : power(5, 3) ```
    ##
    ```Output : 125```
-   
+
 
 ##
    
@@ -83,28 +83,23 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
 
       STEP 1 : Crée une liste de 5 fruits et affiche la liste. 
       fruits = ["apple", "banana", "cherry", "orange", "kiwi"])
-##
+
    ```Output : ["apple", "banana", "cherry", "orange", "kiwi"])```
 
       STEP 2 : Ajoute un fruit "ananas" à la liste et affiche la liste.
-##
+
    ```Output : ["ananas", "apple", "banana", "cherry", "orange", "kiwi"]```
 
       STEP 3 : Supprime le fruit "banana" de la liste et affiche la liste.
-   ##
    ```Output : ["ananas", "apple", "cherry", "orange", "kiwi"]```
 
       STEP 5 : Affiche le dernier élément de la liste.
-   ##
    ```output = "kiwi"```
 
       STEP 6 : Affiche le nombre d'éléments de la liste.
-   ##
    ```output = 5```
 
       STEP 7 : Cherche un élément dans la liste et affiche la position de l'élément.
-##
    ```Example : fruit = "orange" ```
-   ##
    ```Output : 3```
       
