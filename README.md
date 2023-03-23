@@ -18,7 +18,7 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
     Maintenant, reprendre votre function hello_world et modifier-la de sorte qu'il prenne en paramètre un string NAME et affiche "Hello World + NAME" 
 
    ##
-   ```Example : name = "Josué" ```
+   ```Example : name = "Josué"  = ```
    ```Output : "Hello World Josué" ```
 
    ## Task 02 - Arithmetique :
@@ -32,10 +32,10 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
     Si B est égal à 0, la fonction doit retourner "Error: division by zero"
 
 ##
-   ```Example1 : soustraction(1, 2) ```
+   ```Example1 : soustraction(1, 2) = ```
    ```Output : -1 ```
 ##
-   ```Example2 : division(1, 0) ```
+   ```Example2 : division(1, 0) = ```
    ```Output : "Error: division by zero" ```
 
 ## Task 03 - Boucles :
@@ -49,19 +49,19 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
         - power(n, p) qui fait la puissance de n à la puissance p (boucle for ou while)
         
    ##
-   ```Example : alphabet() ```
+   ```Example : alphabet() = ```
    ```Output : "ABCDEFGHIJKLMNOPQRSTUVWXYZ" ```
 ##
-   ```Example : numbers(5) ```
+   ```Example : numbers(5) = ```
    ```Output : 012345 ```
    ##
-   ```Example : sum(5) ```
+   ```Example : sum(5) = ```
    ```Output : 15```
    ##
-   ```Example : factorial(5) ```
+   ```Example : factorial(5) = ```
    ```Output : 120```
    ##
-   ```Example : power(5, 3) ```
+   ```Example : power(5, 3) = ```
    ```Output : 125```
 
 
@@ -91,6 +91,6 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
    ```output = 5```
 ##
       STEP 7 : Cherche un élément dans la liste et affiche la position de l'élément.
-   ```Example : fruit = "orange" ```
+   ```Example : fruit = "orange" = ```
    ```Output : 3```
 ##   
