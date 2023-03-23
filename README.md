@@ -21,3 +21,22 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
    ```Example : name = "Josué" ```
    ##
    ```Output : "Hello World Josué" ```
+
+   ## Task 02 - Arithmetique :
+    Réaliser les 4 fonctions suivante :
+        - addition(A, B) qui fait l'addition de A et B
+        - soustraction(A, B) qui fait la soustraction de A et B
+        - multiplication(A, B) qui fait la multiplication de A et B
+        - division(A, B) qui fait la division de A et B
+        - modulo(A, B) qui fait le modulo de A et B
+    Ces fonctions doivent retourner le résultat de l'opération. Attention, il faut gérer les erreurs. 
+    Si B est égal à 0, la fonction doit retourner "Error: division by zero"
+
+##
+   ```Example1 : soustraction(1, 2) ```
+   ##
+   ```Output : -1 ```
+##
+   ```Example2 : division(1, 0) ```
+   ##
+   ```Output : "Error: division by zero" ```
