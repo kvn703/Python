@@ -118,9 +118,8 @@ Python est un langage de programmation largement utilisé dans les applications 
     Créer les fonctions suivantes qui :
 ##
     STEP 1 : Crée une fonction qui génère un nombre aléatoire entre 0 et 100 et affiche le nombre.
-##
    ```Output : (un nombre aléatoire entre 0 et 100)```
-    
+##
      STEP 2 : Crée une fonction qui génére un nombre aléatoire et affiche "Pair" si le nombre est pair et "Impair" si le nombre est impair.
 
 # Partie 2: The Project
