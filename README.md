@@ -1,7 +1,7 @@
 # Workshop: Python 
 
 
-Python is an interpreted, cross-paradigm, cross-platform programming language. It promotes structured, functional and object-oriented imperative programming. 
+Python est un langage de programmation largement utilisé dans les applications Web, le développement de logiciels, la science des données et le machine learning (ML). Les développeurs utilisent Python parce que c'est un langage efficace et facile à apprendre, et qu'il peut s'exécuter sur de nombreuses plateformes différentes. C'est pour cela on vous propose de découvrir ce langage de programmation à travers ce workshop.
 
 
  # Partie 1 : Initiation à Python
