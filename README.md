@@ -19,7 +19,6 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
 
    ##
    ```Example : name = "Josué" ```
-   ##
    ```Output : "Hello World Josué" ```
 
    ## Task 02 - Arithmetique :
@@ -34,11 +33,9 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
 
 ##
    ```Example1 : soustraction(1, 2) ```
-   ##
    ```Output : -1 ```
 ##
    ```Example2 : division(1, 0) ```
-   ##
    ```Output : "Error: division by zero" ```
 
 ## Task 03 - Boucles :
@@ -53,23 +50,18 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
         
    ##
    ```Example : alphabet() ```
-   ##
    ```Output : "ABCDEFGHIJKLMNOPQRSTUVWXYZ" ```
 ##
    ```Example : numbers(5) ```
-   ##
    ```Output : 012345 ```
    ##
    ```Example : sum(5) ```
-   ##
    ```Output : 15```
    ##
    ```Example : factorial(5) ```
-   ##
    ```Output : 120```
    ##
    ```Example : power(5, 3) ```
-   ##
    ```Output : 125```
 
 
@@ -85,21 +77,20 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
       fruits = ["apple", "banana", "cherry", "orange", "kiwi"])
 
    ```Output : ["apple", "banana", "cherry", "orange", "kiwi"])```
-
+##
       STEP 2 : Ajoute un fruit "ananas" à la liste et affiche la liste.
-
    ```Output : ["ananas", "apple", "banana", "cherry", "orange", "kiwi"]```
-
+##
       STEP 3 : Supprime le fruit "banana" de la liste et affiche la liste.
    ```Output : ["ananas", "apple", "cherry", "orange", "kiwi"]```
-
+##
       STEP 5 : Affiche le dernier élément de la liste.
    ```output = "kiwi"```
-
+##
       STEP 6 : Affiche le nombre d'éléments de la liste.
    ```output = 5```
-
+##
       STEP 7 : Cherche un élément dans la liste et affiche la position de l'élément.
    ```Example : fruit = "orange" ```
    ```Output : 3```
-      
+##   
