@@ -40,3 +40,34 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
    ```Example2 : division(1, 0) ```
    ##
    ```Output : "Error: division by zero" ```
+
+## Task 03 - Boucles :
+     En python, il existe 2 types de boucles : while et for.
+    
+    Choisissez une des deux boucles et réaliser les 3 fonctions suivantes :ù
+        - alphabet() qui affiche l'alphabet en majuscule
+        - numbers(n) qui affiche les nombres de 0 à n
+        - sum(n) qui fait la somme des nombres de 1 à n (boucle for ou while)
+        - factorial(n) qui fait la factorielle de n (boucle for ou while)
+        - power(n, p) qui fait la puissance de n à la puissance p (boucle for ou while)
+        
+   ##
+   ```Example : alphabet() ```
+   ##
+   ```Output : "ABCDEFGHIJKLMNOPQRSTUVWXYZ" ```
+##
+   ```Example : numbers(5) ```
+   ##
+   ```Output : 012345 ```
+   ##
+   ```Example : sum(5) ```
+   ##
+   ```Output : 15```
+   ##
+   ```Example : factorial(5) ```
+   ##
+   ```Output : 120```
+   ##
+   ```Example : power(5, 3) ```
+   ##
+   ```Output : 125```
