@@ -4,7 +4,7 @@
 Python is an interpreted, cross-paradigm, cross-platform programming language. It promotes structured, functional and object-oriented imperative programming. 
 
 
- # Part 1 : Initiation à Python
+ # Partie 1 : Initiation à Python
  
    ## Task 00 -HelloWord :
     Créer un fichier Task00.py qui fonction une fonction hello_world() qui
@@ -94,3 +94,62 @@ Python is an interpreted, cross-paradigm, cross-platform programming language. I
    ```Example : fruit = "orange" = ```
    ```Output : 3```
 ##   
+
+## Task 05 - Dictionaires :
+        Maintenant, découvrons c'est quoi un dictionaire en Python. Un dictionaire est une collection non ordonnée et modifiable.
+        Par exemple, voici un dictionaire de fruits et le nombre de fruits disponible en python:  fruits = {"apple": 5, "banana": 5, "cherry": 5}
+        Créer les fonctions suivantes qui :
+##
+        STEP 1 : Crée un dictionaire de 5 fruits et affiche le dictionaire.
+   ```Output :  {"apple": 5, "banana": 5, "cherry": 5, "orange": 5, "kiwi": 5} ```
+##
+        Step 2 : Ajoute un fruit "ananas" à la liste et affiche le dictionaire.
+   ```Output :  {"ananas": 5, "apple": 5, "banana": 5, "cherry": 5, "orange": 5, "kiwi": 5} ```
+##
+        Step 3 : Supprime une unité du fruit "banana" de la liste et affiche le dictionaire.
+   ```Output :  {"ananas": 5, "apple": 5, "banana": 4, "cherry": 5, "orange": 5, "kiwi": 5} ```
+##
+        Step 4 : Affiche SEULEMENT le nombre de fruit "banana" qui reste.
+   ```Output : 4```
+##
+
+## Task 06 - Random :
+    Maintenant, découvrons c'est quoi un random en Python. Un random est une fonction qui permet de générer un nombre aléatoire.
+    Créer les fonctions suivantes qui :
+##
+    STEP 1 : Crée une fonction qui génère un nombre aléatoire entre 0 et 100 et affiche le nombre.
+##
+   ```Output : (un nombre aléatoire entre 0 et 100)```
+    
+     STEP 2 : Crée une fonction qui génére un nombre aléatoire et affiche "Pair" si le nombre est pair et "Impair" si le nombre est impair.
+
+# Partie 2: The Project
+  
+   ## Jeu de Lotterie :
+    Créer un jeu de lotterie qui demande à l'utilisateur de choisir 6 nombres entre 1 et 49.
+
+    Le programme doit générer 6 nombres aléatoires entre 1 et 49 et afficher les 6 nombres choisis par l'utilisateur et les 6 nombres générés par le programme.
+
+    Le programme doit ensuite afficher le nombre de nombres choisis par l'utilisateur qui sont présents dans les nombres générés par le programme.
+
+    Si le nombre de nombres choisis par l'utilisateur qui sont présents dans les nombres générés par le programme est égal à 6, le programme doit afficher "Bravo, vous avez gagné le jackpot !" et additionne le double de sa victoire à son gain.
+
+    Si le nombre de nombres choisis par l'utilisateur qui sont présents dans les nombres générés par le programme est égal à 5, le programme doit afficher "Bravo, vous avez gagné 1000$ !" et additione 1000$ à son gain.
+
+    Si le nombre de nombres choisis par l'utilisateur qui sont présents dans les nombres générés par le programme est égal à 4, le programme doit afficher "Bravo, vous avez gagné 100$ !" et additione 100$ à son gain.
+
+    Si le nombre de nombres choisis par l'utilisateur qui sont présents dans les nombres générés par le programme est égal à 3, le programme doit afficher "Bravo, vous avez gagné 10$ !" et additione 10$ à son gain.
+
+    Si le nombre de nombres choisis par l'utilisateur qui sont présents dans les nombres générés par le programme est égal à 2, le programme doit afficher "Bravo, vous avez gagné 1$ !" et additione 1$ à son gain.
+
+    Si le nombre de nombres choisis par l'utilisateur qui sont présents dans les nombres générés par le programme est égal à 1, le programme doit afficher "Bravo, vous avez gagné 0.5$ !" et additione 0.5$ à son gain.
+
+    Si le nombre de nombres choisis par l'utilisateur qui sont présents dans les nombres générés par le programme est égal à 0, le programme doit afficher "Désolé, vous n'avez rien gagné !" et ne change pas son gain.
+
+    Chaque fois que le joueur joue au jeux, cela lui coutera 5$.
+    Au début du programme le joueur a par défaut 20$.
+    A chaque tour, le joueur a le choix de jouer ou de quitter le jeu.
+    S'il ne veut pas jouer, le programme doit afficher le gain total du joueur et le quitter.
+    S'il n'a pas assez d'argent pour jouer, le programme doit afficher "Vous n'avez plus assez d'argent pour jouer !" et le quitter.
+
+## josue.nanthakumar@epitech.eu / kevin.nadarajah@epitech.eu
