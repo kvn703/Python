@@ -75,3 +75,23 @@ Tout d'abord, nous allons écrire un script dans le fichier `polls/views.py` qui
 Une fois réalisé, vous pouvez lancer votre serveur et vous rendre sur la page web pour voir le résultat. 
 
 EN cas de succès, vous devriez avoir le message suivant : `Hello, world. You're at the polls index.`
+
+# Step 4 : Création d’une base de données
+
+## Qu'est ce qu'une base de données ?
+
+Une base de données est un ensemble de données organisées de manière à ce qu'elles puissent être facilement consultées, modifiées ou supprimées. Une base de données est un outil très important pour stocker des données.
+
+## Créer un super utilisateur
+
+Pour créer un super utilisateur, vous devez écrire dans votre terminal : 
+
+`python manage.py createsuperuser` 
+
+Vous devez ensuite rentrer un nom d'utilisateur, une adresse mail et un mot de passe.
+
+## Accéder à l'interface d'administration
+
+Pour accéder à l'interface d'administration, vous devez vous rendre sur `http://(l'adresse IP de votre machine):8000/admin/`.
+
+Vous devez ensuite rentrer le nom d'utilisateur et le mot de passe que vous avez créé précédemment.
