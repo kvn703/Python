@@ -49,4 +49,4 @@ Pour lancer le serveur, vous devez écrire dans votre terminal : `python manage.
 
 ### Changer le port du serveur
 
-Par défaut, le serveur tourne sur le port 8000. Maintenant, nous souhaitons le faire tourner sur le port `4242`.```
+Par défaut, le serveur tourne sur le port 8000. Maintenant, nous souhaitons le faire tourner sur le port `4242`.
