@@ -95,3 +95,34 @@ Vous devez ensuite rentrer un nom d'utilisateur, une adresse mail et un mot de p
 Pour accéder à l'interface d'administration, vous devez vous rendre sur `http://(l'adresse IP de votre machine):8000/admin/`.
 
 Vous devez ensuite rentrer le nom d'utilisateur et le mot de passe que vous avez créé précédemment.
+
+# Step 5 : Création d’un modèle
+
+## Qu'est ce qu'un modèle ?
+
+Un modèle est une représentation d'une table de base de données. Il contient les champs et les relations avec d'autres modèles.
+
+## Créer un modèle
+
+Pour créer un modèle, vous devez écrire dans le fichier `polls/models.py` : 
+    
+    - Créer un modèle `Question` avec les champs suivants : question_text, pub_date (question_text taille max 200)
+    - Créer un modèle `Choix` avec les champs suivants : question, choice_text, votes (choice_text taille max 200)
+
+CONSEIL : Faites bien appel au bon module d'importation
+
+## Créer une table
+
+Pour créer une table, tout d'abord modifier le fichier mysite/settings.py : 
+
+    INSTALLED_APPS = [
+        'polls.apps.PollsConfig',
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+    ]
+
+En faisant cela, vous avez ajouté l'application Polls à votre projet.
