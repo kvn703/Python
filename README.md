@@ -1,73 +1,52 @@
-# Workshop: Python 
+# Workshop - Introduction to Django
 
+Durant ce Workshop, vous allez apprendre à créer une application web avec le framework Django.
 
-Python is an interpreted, cross-paradigm, cross-platform programming language. It promotes structured, functional and object-oriented imperative programming. 
+## Qu'estce que Django ?
 
+Django est un framework web open source écrit en Python. Il est conçu pour favoriser le développement rapide et le design propre et pragmatique. Il encourage la bonne pratique de développement et favorise un code DRY (Don't Repeat Yourself). 
 
- # Part 1 : Initiation à Python
- 
-   ## Task 00 -HelloWord :
-    Créer un fichier Task00.py qui fonction une fonction hello_world() qui
-    affiche "Hello World" lors de l'éxécution.
-    
-   ##
-   ```Output : "Hello World"```
-    
-   ## Task 01 - Variables :
-    
-    Maintenant, reprendre votre function hello_world et modifier-la de sorte qu'il prenne en paramètre un string NAME et affiche "Hello World + NAME" 
+# Step 0 : Installation
 
-   ##
-   ```Example : name = "Josué" ```
-   ##
-   ```Output : "Hello World Josué" ```
+Installer Django en suivant ce lien : `https://docs.djangoproject.com/en/4.1/topics/install/`
 
-   ## Task 02 - Arithmetique :
-    Réaliser les 4 fonctions suivante :
-        - addition(A, B) qui fait l'addition de A et B
-        - soustraction(A, B) qui fait la soustraction de A et B
-        - multiplication(A, B) qui fait la multiplication de A et B
-        - division(A, B) qui fait la division de A et B
-        - modulo(A, B) qui fait le modulo de A et B
-    Ces fonctions doivent retourner le résultat de l'opération. Attention, il faut gérer les erreurs. 
-    Si B est égal à 0, la fonction doit retourner "Error: division by zero"
+Lorsque vous avez terminé, vous pouvez vérifier que Django est bien installé en écrivant : `python -m django --version` dans votre terminal.
 
-##
-   ```Example1 : soustraction(1, 2) ```
-   ##
-   ```Output : -1 ```
-##
-   ```Example2 : division(1, 0) ```
-   ##
-   ```Output : "Error: division by zero" ```
+Si vous avez une erreur, vous pouvez suivre ce lien : `https://docs.djangoproject.com/en/4.1/topics/install/#installing-official-release`
 
-## Task 03 - Boucles :
-     En python, il existe 2 types de boucles : while et for.
-    
-    Choisissez une des deux boucles et réaliser les 3 fonctions suivantes :ù
-        - alphabet() qui affiche l'alphabet en majuscule
-        - numbers(n) qui affiche les nombres de 0 à n
-        - sum(n) qui fait la somme des nombres de 1 à n (boucle for ou while)
-        - factorial(n) qui fait la factorielle de n (boucle for ou while)
-        - power(n, p) qui fait la puissance de n à la puissance p (boucle for ou while)
-        
-   ##
-   ```Example : alphabet() ```
-   ##
-   ```Output : "ABCDEFGHIJKLMNOPQRSTUVWXYZ" ```
-##
-   ```Example : numbers(5) ```
-   ##
-   ```Output : 012345 ```
-   ##
-   ```Example : sum(5) ```
-   ##
-   ```Output : 15```
-   ##
-   ```Example : factorial(5) ```
-   ##
-   ```Output : 120```
-   ##
-   ```Example : power(5, 3) ```
-   ##
-   ```Output : 125```
+# Step 1 : Initiation Django + Créer un projet
+
+Pour créer un projet, vous devez écrire dans votre terminal : `django-admin startproject mysite` , où "mysite" est le nom de votre site.
+
+Une fois que vous avez terminé, vous pouvez vérifier que votre projet est bien créé en écrivant : `tree` dans votre terminal et avoir le résultat suivant : 
+
+```
+mysite/
+    manage.py
+    mysite/
+        __init__.py
+        settings.py
+        urls.py
+        asgi.py
+        wsgi.py
+```
+
+Vous pouvez ensuite vous rendre dans le dossier de votre projet avec la commande : `cd mysite`
+
+### Explication des fichiers
+
+- `manage.py` : C'est un script qui permet de gérer votre projet. Vous pouvez l'utiliser pour lancer un serveur web, créer des applications, etc.
+- `mysite/` : C'est un dossier qui contient votre projet. Il est nommé comme le dossier parent.
+- `mysite/__init__.py` : C'est un fichier vide qui indique à Python que ce dossier doit être considéré comme un package.
+- `mysite/settings.py` : C'est le fichier de configuration de votre projet. Il contient notamment la liste des applications installées.
+- `mysite/urls.py` : C'est le fichier de routage de votre projet. Il contient la liste des URL de votre projet.
+- `mysite/asgi.py` : C'est un point d'entrée pour les serveurs web compatibles avec ASGI.
+- `mysite/wsgi.py` : C'est un point d'entrée pour les serveurs web compatibles avec WSGI.
+
+# Step 2 : Lancer le serveur
+
+Pour lancer le serveur, vous devez écrire dans votre terminal : `python manage.py runserver` . Vous pouvez ensuite vous rendre sur `http://(l'adresse IP de votre machine):8000/` pour voir votre site.
+
+### Changer le port du serveur
+
+Par défaut, le serveur tourne sur le port 8000. Maintenant, nous souhaitons le faire tourner sur le port `4242`.```
