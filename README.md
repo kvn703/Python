@@ -243,3 +243,37 @@ Pour créer une vue, vous devez écrire dans le fichier `polls/views.py` :
     - Créer une vue qui renvoie la liste des questions publiées il y a moins d'un jour
     - Créer une vue qui renvoie les détails d'une question particulière
     - Créer une vue qui renvoie les résultats d'une question
+
+# STEP final : Faire un forum 
+
+Avec tous les outils que vous avez appris et les connaissances que vous avez acquises, vous allez créer un forum basique avec des questions et des réponses.
+
+CONSIGNES : 
+
+    - Créer un modèle `Question` avec les champs suivants : question_text, pub_date (question_text taille max 200)
+    - Créer un modèle `Reponse` avec les champs suivants : question, reponse_text, votes (reponse_text taille max 200)
+    - Créer une table pour chaque modèle
+    - Créer une vue qui renvoie la liste des questions publiées il y a moins d'un jour
+    - Créer une vue qui renvoie les détails d'une question particulière
+    - Créer une vue qui renvoie les résultats d'une question
+    - Créer une vue qui renvoie les réponses d'une question
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse
+    - Créer une vue qui renvoie les détails d'une réponse particulière
+    - Créer une vue qui renvoie les résultats d'une réponse```
