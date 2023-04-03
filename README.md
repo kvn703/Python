@@ -50,3 +50,28 @@ Pour lancer le serveur, vous devez écrire dans votre terminal : `python manage.
 ### Changer le port du serveur
 
 Par défaut, le serveur tourne sur le port 8000. Maintenant, nous souhaitons le faire tourner sur le port `4242`.
+
+# Step 3 : Création de l’application Polls
+
+Une fois que vous avez compris comment lancer votre serveur Django et que vous avez compris les différents fichiers, nous allons créer notre première application.
+
+## Qu'est ce qu'une application ?
+
+Une application est un ensemble de fonctionnalités qui peuvent être utilisées dans plusieurs projets. Par exemple, une application de blog peut être utilisée dans plusieurs projets.
+
+## Créer une application Polls
+
+Pour créer une application, vous devez écrire dans votre terminal : `python manage.py startapp polls` , où "polls" est le nom de votre application.
+
+## Ecrire une vue
+
+Une fois que vous aviez créé votre application, vous devez écrire une vue. Une vue est une fonction qui prend une requête en entrée et renvoie une réponse.
+Tout d'abord, nous allons écrire un script dans le fichier `polls/views.py` qui va renvoyer un message.
+
+`Hello, world. You're at the polls index.".`
+
+''' CONSEIL : Faites bien appel au bon module d'importation '''
+
+Une fois réalisé, vous pouvez lancer votre serveur et vous rendre sur la page web pour voir le résultat. 
+
+EN cas de succès, vous devriez avoir le message suivant : `Hello, world. You're at the polls index.`
