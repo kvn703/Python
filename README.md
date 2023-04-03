@@ -184,3 +184,62 @@ Si vous voulez ajouter des modifications à votre modèle, vous avez juste à mo
 Vous pouvez ensuite exécuter la commande suivante :
 
 `python manage.py migrate` .
+
+# Step 6 : Création d’une API avec le shell
+
+## Qu'est ce qu'une API ?
+
+Une API est une interface de programmation qui permet de communiquer avec un logiciel. Une API est un outil très important pour communiquer avec un logiciel.
+
+Pour accéder à l'interface de programmation, vous devez écrire dans votre terminal : 
+    
+`python manage.py shell` .
+
+Une fois dans le terminal, vous allez manipuler les objets de votre base de données.
+
+### Créer un objet
+
+Pour créer un objet, vous devez écrire dans le terminal : 
+    
+    - Créer un objet `Question` avec les champs suivants : "What is the question", à la date d'aujourd'hui
+    - Créer un objet `Question` avec les champs suivants : "What time is it ?", à la date d'aujourd'hui
+    - Créer un objet `Question` avec les champs suivants : "What is the answer ?", à la date d'aujourd'hui
+
+Pensez à sauvegarder vos objets avec la méthode `save()` et un id à chaque création d'objet.
+
+Pour vérifier que l'objet a bien été créé, vous devez écrire dans le terminal : 
+    
+    - Afficher tous les objets `Question`
+
+Maintenant que vous avez créé un objet, vous pouvez le récupérer dans la base de données.
+
+## Récupérer un objet
+
+Vous allez récuperer les objets suivants Question dans la base de données.
+
+    - Récupérer un objet `Question` avec l'id 1
+    - Récupérer un objet `Question` avec la question "What is the question"
+    - Récupérer un objet `Question` avec la date d'aujourd'hui
+
+## Modifier un objet
+
+A présent, vous devez modifier un objet Question 
+    
+    - Modifier la question de l'objet `Question` avec la question "What is the question" par "What is your name ?"
+
+## Supprimer un objet
+
+A présent, vous devez supprimer un objet Question
+    
+    - Supprimer l'objet `Question` avec la question "What is your name ?"
+
+En parralèle, vous pouvez vérifier en meme temps tous les changements que vous avez fait depuis l'interface d'administration en allant sur la page /admin de votre serveur.
+
+# Step 7 : Creation de vues plus avancer
+
+
+Pour créer une vue, vous devez écrire dans le fichier `polls/views.py` : 
+    
+    - Créer une vue qui renvoie la liste des questions publiées il y a moins d'un jour
+    - Créer une vue qui renvoie les détails d'une question particulière
+    - Créer une vue qui renvoie les résultats d'une question
