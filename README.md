@@ -1,4 +1,4 @@
-# Workshop - Introduction to Django
+# Workshop - Introduction à Django
 
 Durant ce Workshop, vous allez apprendre à créer une application web avec le framework Django.
 
